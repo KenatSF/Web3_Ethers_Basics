@@ -3,7 +3,7 @@ const path = require('path')
 require('dotenv').config({ path: path.resolve(__dirname, './.env') })
 
 
-const file_name = "Flashy";
+const file_name = "Arbitrer";
 const contract = JSON.parse(fs.readFileSync(process.env.ABI_PATH + file_name + ".json", 'utf-8'));
 
 console.log("ABI");

@@ -1,5 +1,6 @@
 const Web3 = require('web3');
 const web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
+//const web3 = new Web3("https://rinkeby.infura.io/v3/" + process.env.INFURA_RINKENBY_KEY);
 const { ethers } = require('ethers');
 const provider = new ethers.providers.JsonRpcProvider('http://localhost:8545');
 
